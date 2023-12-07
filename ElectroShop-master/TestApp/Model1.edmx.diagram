@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2098284b8e0a46e69eb4628eaf103f60" Name="Diagram1">
+        <EntityTypeShape EntityType="Travel_HubModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Travel_HubModel.Бронирование" Width="1.5" PointX="5.25" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Travel_HubModel.Бронирование_Номер" Width="1.5" PointX="7.5" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Travel_HubModel.Вид_номера" Width="1.5" PointX="3" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Travel_HubModel.Данные_пользователя" Width="1.5" PointX="5.25" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="Travel_HubModel.Номер" Width="1.5" PointX="5.25" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Travel_HubModel.Офис" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Travel_HubModel.Пользователь" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Travel_HubModel.Роль_пользователя" Width="1.5" PointX="0.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Travel_HubModel.Статус_бронирования" Width="1.5" PointX="3" PointY="7.125" IsExpanded="true" />
+        <AssociationConnector Association="Travel_HubModel.FK_Бронирование_Номер_Бронирование" ManuallyRouted="false" />
+        <AssociationConnector Association="Travel_HubModel.FK_Бронирование_Офис" ManuallyRouted="false" />
+        <AssociationConnector Association="Travel_HubModel.FK_Бронирование_Пользователь" ManuallyRouted="false" />
+        <AssociationConnector Association="Travel_HubModel.FK_Бронирование_Статус_бронирования" ManuallyRouted="false" />
+        <AssociationConnector Association="Travel_HubModel.FK_Бронирование_Номер_Номер" ManuallyRouted="false" />
+        <AssociationConnector Association="Travel_HubModel.FK_Номер_Вид_номера" ManuallyRouted="false" />
+        <AssociationConnector Association="Travel_HubModel.FK_Данные_пользователя_Пользователь" ManuallyRouted="false" />
+        <AssociationConnector Association="Travel_HubModel.FK_Пользователь_Роль_пользователя" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
